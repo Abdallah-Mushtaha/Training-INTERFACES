@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap");
+/* This means that the code will be applied to all elements called ::universal selector، */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100px;
+}
+/* This means u can use varibale in css  call it in css  :: root selector */
+:root {
+  --color: #ffff;
+  --body-color: rgb(77, 77, 77);
+  --card-color: hsl(0deg 0% 0% / 60%);
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--body-color);
+  height: 100vh;
+  background: rgb(255, 0, 81);
+  background: linear-gradient(
+    13deg,
+    rgba(255, 0, 81, 1) 0%,
+    rgba(9, 97, 121, 1) 20%,
+    rgba(77, 39, 87, 1) 53%,
+    rgba(207, 0, 0, 1) 100%
+  );
+}
+body > * {
+  width: 86% !important;
+}
+
+main {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--card-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  border-radius: 6px;
+}
+.img {
+  position: relative;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50px);
+}
+
+h1 {
+  color: var(--color);
+  font-size: 24px;
+  font-family: "Bungee Tint", sans-serif;
+  font-style: normal;
+  font-weight: 500px;
+  text-align: center;
+
+  margin: 18px 0px;
+}
+h3 {
+  font-size: 15px;
+  text-align: center;
+  margin: 18px 0px;
+  color: gold;
+}
+p {
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+  margin: 22px 0px 30px;
+  color: var(--color);
+}
+ul {
+  list-style: none;
+}
+li:not(:last-child) {
+  margin-bottom: 16px;
+}
+li a {
+  background-color: var(--body-color);
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  padding: 16px;
+  color: var(--color);
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 100ms linear all ease-in-out;
+}
+li a:hover {
+  background-color: rgb(173 173 173 / 43%);
+}

@@ -1,0 +1,286 @@
+:root {
+  --main-color: #06bbcc;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+
+  height: 3000px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  box-shadow: 0px 0px 10px #6d6d6d;
+  /* height: 60px; */
+  padding: 5px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+  margin-left: 20px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul a.active,
+.logo {
+  color: var(--main-color);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+ul li .btn {
+  color: white;
+  background-color: var(--main-color);
+  padding: 22px 10px;
+  margin-bottom: 5px;
+}
+
+.item-wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+
+.intro h2 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.intro h6 {
+  /* background-color: #fff; */
+  padding: 0 5px;
+  color: var(--main-color);
+  margin-bottom: 0px;
+  z-index: 0;
+  position: relative;
+  /* background-color: #fff; */
+  display: inline-block;
+  padding: 5px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.item .imgs {
+  height: 250px;
+  overflow: hidden;
+}
+
+.item:hover .imgs img {
+  transform: scale(1.08);
+}
+
+img {
+  display: block;
+  transition: all 0.3s ease;
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.item {
+  width: 23%;
+  overflow: hidden;
+  margin: 10.5px;
+  cursor: pointer;
+}
+
+.info {
+  text-align: center;
+  background-color: #44d9e624;
+  padding: 20px;
+  position: relative;
+}
+
+.icon {
+  background-color: #fff;
+  padding: 15px 7px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* right: 75px; */
+}
+
+.icon a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #06bbcc;
+  padding: 10px;
+}
+
+.text-contant h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.text-contant span {
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+}
+
+h6::before {
+  content: "";
+  width: 130px;
+  height: 1px;
+  background-color: #06bbcc;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 9px;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+h6::after {
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #06bbcc;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 13px;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.intro h6 span {
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+#abood {
+  height: 177%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn-2 {
+  transition: all 0.3s ease;
+}
+
+/* .head ul li .btn i {
+    transform: rotate(180deg);
+
+}
+
+.head * {
+    text-align: center;
+
+} */
+
+@media (max-width: 700px) {
+  body {
+    /* background-color: #cc06b8; */
+  }
+
+  .item {
+    width: 98%;
+  }
+
+  .head .menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .btn-2,
+  button {
+    background-color: #06bbcc;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 9px;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  body {
+    /* background-color: #cc6c06; */
+  }
+
+  .item {
+    width: 45%;
+  }
+
+  .head .menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .btn-2,
+  button {
+    background-color: #06bbcc;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 9px;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    /* background-color: #a4cc06; */
+  }
+
+  .item {
+    width: 23%;
+  }
+
+  .btn-2,
+  button {
+    display: none;
+  }
+}

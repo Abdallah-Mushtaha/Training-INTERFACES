@@ -1,0 +1,46 @@
+.mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 80px;
+}
+h2 {
+  font-size: 3rem;
+  color: #355ce0;
+}
+.wrapperMobile {
+  position: relative;
+}
+
+.wrapperMobile img {
+  width: 106%;
+  display: block;
+}
+
+.iframeContainer {
+  position: absolute;
+  top: 5%;
+  left: 31%;
+  width: 282px;
+  height: 90%;
+  overflow: hidden;
+  pointer-events: auto;
+  border-radius: 37px;
+}
+
+.iframeContainer iframe {
+  /* important to Task to compensate for scroll space  */
+  width: calc(100% + 20px);
+  height: 100%;
+  border: none;
+  pointer-events: auto;
+
+  overflow: scroll;
+
+  scrollbar-width: none;
+}
+
+/* hide scrollbar  from browser "iframe" */
+.iframeContainer iframe::-webkit-scrollbar {
+  display: none;
+}

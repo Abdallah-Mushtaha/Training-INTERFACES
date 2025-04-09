@@ -1,0 +1,93 @@
+:root {
+  --main-color: #fec82e;
+  --second-color: #8e1b3e;
+}
+
+@font-face {
+  font-family: Abood;
+  src: url(../Fonts\NeoSansArabic.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.hero .img img {
+  width: 69%;
+}
+
+.hero .menu {
+  margin-right: -10;
+}
+
+.hero .menu h1 {
+  font-size: 40px;
+}
+
+.hero .menu h3 {
+  font-size: 22px;
+}
+
+.hero .menu ul {
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+  margin-top: 40px;
+}
+
+.hero .menu ul li span {
+  margin-right: 9px;
+  font-size: 18px;
+}
+
+.hero .menu ul li {
+  margin-bottom: 10px;
+}
+
+.hero .menu a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #232323;
+  background-color: var(--main-color);
+  padding: 20px 35px;
+  border-radius: 30px;
+  position: absolute;
+  transition: all 0.3s ease;
+  /* margin-right: -8px;
+    margin-top: 21px; */
+  display: inline-block;
+}
+
+.hero .menu a:hover {
+  background-color: var(--second-color);
+  color: white;
+}
+.task {
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column !important;
+  }
+}

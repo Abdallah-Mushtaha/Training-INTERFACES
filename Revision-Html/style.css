@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  padding: 20px;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+i,
+em {
+  font-style: italic;
+}
+
+mark {
+  background-color: yellow;
+}
+u {
+  text-decoration: underline;
+}
+del {
+  text-decoration: line-through;
+}
+ins {
+  text-decoration: underline;
+  color: green;
+}
+
+/* الصور */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* الجداول */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+caption {
+  caption-side: top;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 5px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+fieldset {
+  border: 2px solid #999;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+legend {
+  font-weight: bold;
+  padding: 5px 10px;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: auto;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #2980b9;
+}
+
+.c1,
+.c2,
+.c3 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header, nav, section, aside, footer */
+header,
+nav,
+section,
+aside,
+footer {
+  padding: 15px;
+  background-color: #e1e1e1;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Marquee */
+marquee {
+  background-color: #ffeaa7;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+video {
+  width: 100%;
+  border-radius: 9px;
+  margin: 10px 0px;
+}
+iframe {
+  height: 50rem;
+  width: 50%;
+  padding: 50px;
+  background: gray;
+}

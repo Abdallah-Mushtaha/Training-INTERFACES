@@ -13,3 +13,7 @@ Links:
 
 - [Quick-Links](https://abdallah-mushtaha.github.io/Training-INTERFACES/Quick-Links/html/main.html)
 - [Expert-Instructors](https://abdallah-mushtaha.github.io/Training-INTERFACES/Expert-Instructors/html/Responsive.html)
+- [Revision-Html](https://abdallah-mushtaha.github.io/Training-INTERFACES/Revision-Html/index.Html)
+- [Sadad-UI](https://abdallah-mushtaha.github.io/Training-INTERFACES/Sadad-UI/index.html)
+- [absolute](https://abdallah-mushtaha.github.io/Training-INTERFACES/absolute/absol.html)
+- [mockup](https://abdallah-mushtaha.github.io/Training-INTERFACES/mockup/index.html)

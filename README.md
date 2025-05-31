@@ -19,4 +19,3 @@ Links:
 - [mockup](https://abdallah-mushtaha.github.io/Training-INTERFACES/mockup/index.html)
 - [UI](https://abdallah-mushtaha.github.io/Training-INTERFACES/UI/layout.html)
 - [another_UI](https://abdallah-mushtaha.github.io/Training-INTERFACES/another_UI/new_layout.html)
-  dd
